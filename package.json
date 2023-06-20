@@ -1,0 +1,24 @@
+{
+  "name": "flurn",
+  "version": "1.0.0",
+  "description": "This is a flurn backend assignment.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "save": "node savetodb.js"
+  },
+  "author": "Sagar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sagar1952115/booking-system-backend/issues"
+  },
+  "homepage": "https://github.com/sagar1952115/booking-system-backend#readme",
+  "dependencies": {
+    "csvtojson": "^2.0.10",
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "mongoose": "^7.2.4",
+    "nodemon": "^2.0.22"
+  }
+}
