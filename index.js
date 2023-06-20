@@ -9,7 +9,7 @@ app.use(express.json());
 mongoose
   .connect(process.env.MONGO_URL)
   .then(() => {
-    app.listen("8080", () => {
+    app.listen(process.env.PORT, () => {
       console.log("connected");
     });
   })
